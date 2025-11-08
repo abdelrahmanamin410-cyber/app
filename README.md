@@ -1,16 +1,16 @@
+# academy_app
 
-Academy Mobile App - Fullstack Scaffold
+A new Flutter project.
 
-This archive contains:
-- frontend/  -> Flutter mobile app
-- backend/   -> Node.js Express server with MySQL auth
+## Getting Started
 
-To run locally (Android emulator):
-1. Start MySQL and create a database using backend/schema.sql.
-2. Configure backend/.env with DB credentials and JWT_SECRET.
-3. In backend/: npm install && npm start
-4. In frontend/: flutter pub get && flutter run (use emulator; API points to 10.0.2.2:3000)
+This project is a starting point for a Flutter application.
 
-Important:
-- The mobile app expects backend at http://10.0.2.2:3000 for Android emulator.
-- For real devices, use your machine IP and adjust CORS/.env accordingly.
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

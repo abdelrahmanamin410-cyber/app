@@ -1,1 +1,0 @@
-Generated scaffold with Flutter frontend and Express+MySQL backend. Customize and secure before production.
