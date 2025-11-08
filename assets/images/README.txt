@@ -1,1 +1,0 @@
-Place logo and image assets here.
