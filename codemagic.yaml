@@ -34,9 +34,3 @@ workflows:
           flutter build ipa --release --no-codesign
     artifacts:
       - build/ios/ipa/*.ipa
-    publishing:
-      email:
-        recipients:
-          - your-email@example.com   # Optional: get build notifications
-        on_success: true
-        on_failure: true
