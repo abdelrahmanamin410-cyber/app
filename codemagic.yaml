@@ -9,10 +9,6 @@ workflows:
       vars:
         APP_NAME: "academy_app"
         FLUTTER_BUILD_MODE: "release"
-    caching:
-      # Cache Flutter dependencies for faster builds
-      - ~/.pub-cache
-      - ios/Pods
     scripts:
       - name: Install Flutter dependencies
         script: |
