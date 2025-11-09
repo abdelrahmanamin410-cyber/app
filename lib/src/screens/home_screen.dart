@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
         controller: _pageController,
         physics: const BouncingScrollPhysics(),
         onPageChanged: (index) => setState(() => _selectedIndex = index),
-        children: const [
+        children: [
           _HomeDashboard(),
           ProgramsScreen(),
           CoursesScreen(),
@@ -220,13 +220,13 @@ class _HomeDashboard extends StatelessWidget {
               children: [
                 _HomeCard(icon: Icons.school, title: "Programs", color: mainBlue,
                     onTap: () => Navigator.push(context,
-                        MaterialPageRoute(builder: (_) => const ProgramsScreen()))),
+                        MaterialPageRoute(builder: (_) => ProgramsScreen()))),
                 _HomeCard(icon: Icons.book, title: "Courses", color: mainBlue,
                     onTap: () => Navigator.push(context,
-                        MaterialPageRoute(builder: (_) => const CoursesScreen()))),
+                        MaterialPageRoute(builder: (_) => CoursesScreen()))),
                 _HomeCard(icon: Icons.chat, title: "Chat", color: mainBlue,
                     onTap: () => Navigator.push(context,
-                        MaterialPageRoute(builder: (_) => const ChatScreen()))),
+                        MaterialPageRoute(builder: (_) => ChatScreen()))),
                 _HomeCard(icon: Icons.calendar_month, title: "Schedule", color: mainBlue, onTap: () {}),
                 _HomeCard(icon: Icons.assessment, title: "Results", color: mainBlue, onTap: () {}),
                 _HomeCard(icon: Icons.notifications, title: "Notices", color: mainBlue, onTap: () {}),
